@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7910"
-	"mapversion" "4"
+	"mapversion" "5"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -15,12 +15,12 @@ viewsettings
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
 	"nGridSpacing" "32"
-	"bShow3DGrid" "1"
+	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "4"
+	"mapversion" "5"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -951,7 +951,7 @@ world
 		{
 			"id" "228"
 			"plane" "(-10112 10112 0) (-7584 10112 0) (-7584 7584 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -1027,7 +1027,7 @@ world
 		{
 			"id" "240"
 			"plane" "(-7584 10112 0) (-5056 10112 0) (-5056 7584 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 63.998] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -1103,7 +1103,7 @@ world
 		{
 			"id" "252"
 			"plane" "(-5056 10112 0) (-2528 10112 0) (-2528 7584 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -1179,7 +1179,7 @@ world
 		{
 			"id" "264"
 			"plane" "(-2528 10112 0) (-0.000488281 10112 0) (-0.000488281 7584 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -1255,7 +1255,7 @@ world
 		{
 			"id" "276"
 			"plane" "(0 10112 0) (2528 10112 0) (2528 7584 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -1331,7 +1331,7 @@ world
 		{
 			"id" "288"
 			"plane" "(2528 10112 0) (5056 10112 0) (5056 7584 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -1407,7 +1407,7 @@ world
 		{
 			"id" "300"
 			"plane" "(5056 10112 0) (7584 10112 0) (7584 7584 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 -63.998] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -1483,7 +1483,7 @@ world
 		{
 			"id" "312"
 			"plane" "(7584 10112 0) (10112 10112 0) (10112 7584 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -1559,7 +1559,7 @@ world
 		{
 			"id" "324"
 			"plane" "(7584 7584 0) (10112 7584 0) (10112 5056 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -1635,7 +1635,7 @@ world
 		{
 			"id" "336"
 			"plane" "(5056 7584 0) (7584 7584 0) (7584 5056 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 63.998] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -1711,7 +1711,7 @@ world
 		{
 			"id" "348"
 			"plane" "(2528 7584 0) (5056 7584 0) (5056 5056 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 -0.00195313] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -1787,7 +1787,7 @@ world
 		{
 			"id" "360"
 			"plane" "(0.000488281 7584 0) (2528 7584 0) (2528 5056 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 63.998] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -1863,7 +1863,7 @@ world
 		{
 			"id" "372"
 			"plane" "(-2528 7584 0) (0 7584 0) (0 5056 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 63.998] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -1939,7 +1939,7 @@ world
 		{
 			"id" "384"
 			"plane" "(-5056 7584 0) (-2528 7584 0) (-2528 5056 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 63.998] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -2015,7 +2015,7 @@ world
 		{
 			"id" "396"
 			"plane" "(-7584 7584 0) (-5056 7584 0) (-5056 5056 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 63.998] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -2091,7 +2091,7 @@ world
 		{
 			"id" "408"
 			"plane" "(-10112 7584 0) (-7584 7584 0) (-7584 5056 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 63.998] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -2167,7 +2167,7 @@ world
 		{
 			"id" "462"
 			"plane" "(-10112 5056 0) (-7584 5056 0) (-7584 2528 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 -0.00195313] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -2243,7 +2243,7 @@ world
 		{
 			"id" "468"
 			"plane" "(-7584 5056 0) (-5056 5056 0) (-5056 2528 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 -0.00195313] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -2319,7 +2319,7 @@ world
 		{
 			"id" "474"
 			"plane" "(-5056 5056 0) (-2528 5056 0) (-2528 2528 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 -0.00195313] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -2395,7 +2395,7 @@ world
 		{
 			"id" "480"
 			"plane" "(-2528 5056 0) (0 5056 0) (0 2528 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 -0.00195313] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -2471,7 +2471,7 @@ world
 		{
 			"id" "486"
 			"plane" "(0.000488281 5056 0) (2528 5056 0) (2528 2528 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 -0.00195313] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -2547,7 +2547,7 @@ world
 		{
 			"id" "492"
 			"plane" "(2528 5056 0) (5056 5056 0) (5056 2528 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 -0.00195313] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -2623,7 +2623,7 @@ world
 		{
 			"id" "498"
 			"plane" "(5056 5056 0) (7584 5056 0) (7584 2528 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 -0.00195313] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -2699,7 +2699,7 @@ world
 		{
 			"id" "504"
 			"plane" "(7584 5056 0) (10112 5056 0) (10112 2528 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -2775,7 +2775,7 @@ world
 		{
 			"id" "558"
 			"plane" "(-10112 2528 0) (-7584 2528 0) (-7584 0.000488281 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 63.998] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -2851,7 +2851,7 @@ world
 		{
 			"id" "564"
 			"plane" "(-7584 2528 0) (-5056 2528 0) (-5056 0.000488281 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 63.998] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -2927,7 +2927,7 @@ world
 		{
 			"id" "570"
 			"plane" "(-5056 2528 0) (-2528 2528 0) (-2528 0.000488281 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 63.998] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -3003,7 +3003,7 @@ world
 		{
 			"id" "576"
 			"plane" "(-2528 2528 0) (0 2528 0) (0 0.000488281 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 63.998] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -3079,7 +3079,7 @@ world
 		{
 			"id" "582"
 			"plane" "(0.000488281 2528 0) (2528 2528 0) (2528 0.000488281 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 63.998] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -3155,7 +3155,7 @@ world
 		{
 			"id" "588"
 			"plane" "(2528 2528 0) (5056 2528 0) (5056 0.000488281 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 63.998] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -3231,7 +3231,7 @@ world
 		{
 			"id" "594"
 			"plane" "(5056 2528 0) (7584 2528 0) (7584 0.000488281 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 63.998] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -3307,7 +3307,7 @@ world
 		{
 			"id" "600"
 			"plane" "(7584 2528 0) (10112 2528 0) (10112 0.000488281 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -3383,7 +3383,7 @@ world
 		{
 			"id" "654"
 			"plane" "(-10112 0 0) (-7584 0 0) (-7584 -2528 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 63.998] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -3459,7 +3459,7 @@ world
 		{
 			"id" "660"
 			"plane" "(-7584 0 0) (-5056 0 0) (-5056 -2528 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 63.998] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -3535,7 +3535,7 @@ world
 		{
 			"id" "666"
 			"plane" "(-5056 0 0) (-2528 0 0) (-2528 -2528 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 63.998] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -3611,7 +3611,7 @@ world
 		{
 			"id" "672"
 			"plane" "(-2528 0 0) (0 0 0) (0 -2528 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 63.998] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -3687,7 +3687,7 @@ world
 		{
 			"id" "678"
 			"plane" "(0.000488281 0 0) (2528 0 0) (2528 -2528 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 63.998] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -3763,7 +3763,7 @@ world
 		{
 			"id" "684"
 			"plane" "(2528 0 0) (5056 0 0) (5056 -2528 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 63.998] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -3839,7 +3839,7 @@ world
 		{
 			"id" "690"
 			"plane" "(5056 0 0) (7584 0 0) (7584 -2528 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 63.998] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -3915,7 +3915,7 @@ world
 		{
 			"id" "696"
 			"plane" "(7584 0 0) (10112 0 0) (10112 -2528 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -3991,7 +3991,7 @@ world
 		{
 			"id" "750"
 			"plane" "(-10112 -2528 0) (-7584 -2528 0) (-7584 -5056 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 -0.00195313] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -4067,7 +4067,7 @@ world
 		{
 			"id" "756"
 			"plane" "(-7584 -2528 0) (-5056 -2528 0) (-5056 -5056 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 -0.00195313] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -4143,7 +4143,7 @@ world
 		{
 			"id" "762"
 			"plane" "(-5056 -2528 0) (-2528 -2528 0) (-2528 -5056 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 -0.00195313] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -4219,7 +4219,7 @@ world
 		{
 			"id" "768"
 			"plane" "(-2528 -2528 0) (0 -2528 0) (0 -5056 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 -0.00195313] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -4295,7 +4295,7 @@ world
 		{
 			"id" "774"
 			"plane" "(0.000488281 -2528 0) (2528 -2528 0) (2528 -5056 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 -0.00195313] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -4371,7 +4371,7 @@ world
 		{
 			"id" "780"
 			"plane" "(2528 -2528 0) (5056 -2528 0) (5056 -5056 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 -0.00195313] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -4447,7 +4447,7 @@ world
 		{
 			"id" "786"
 			"plane" "(5056 -2528 0) (7584 -2528 0) (7584 -5056 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 -0.00195313] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -4523,7 +4523,7 @@ world
 		{
 			"id" "792"
 			"plane" "(7584 -2528 0) (10112 -2528 0) (10112 -5056 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -4599,7 +4599,7 @@ world
 		{
 			"id" "846"
 			"plane" "(-10112 -5056 0) (-7584 -5056 0) (-7584 -7584 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 -0.00195313] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -4675,7 +4675,7 @@ world
 		{
 			"id" "852"
 			"plane" "(-7584 -5056 0) (-5056 -5056 0) (-5056 -7584 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 -0.00195313] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -4751,7 +4751,7 @@ world
 		{
 			"id" "858"
 			"plane" "(-5056 -5056 0) (-2528 -5056 0) (-2528 -7584 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 -0.00195313] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -4827,7 +4827,7 @@ world
 		{
 			"id" "864"
 			"plane" "(-2528 -5056 0) (0 -5056 0) (0 -7584 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 -0.00195313] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -4903,7 +4903,7 @@ world
 		{
 			"id" "870"
 			"plane" "(0.000488281 -5056 0) (2528 -5056 0) (2528 -7584 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 -0.00195313] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -4979,7 +4979,7 @@ world
 		{
 			"id" "876"
 			"plane" "(2528 -5056 0) (5056 -5056 0) (5056 -7584 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 -0.00195313] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -5055,7 +5055,7 @@ world
 		{
 			"id" "882"
 			"plane" "(5056 -5056 0) (7584 -5056 0) (7584 -7584 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 -0.00195313] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -5131,7 +5131,7 @@ world
 		{
 			"id" "888"
 			"plane" "(7584 -5056 0) (10112 -5056 0) (10112 -7584 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -5207,7 +5207,7 @@ world
 		{
 			"id" "942"
 			"plane" "(-10112 -7584 0) (-7584 -7584 0) (-7584 -10112 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 63.998] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -5283,7 +5283,7 @@ world
 		{
 			"id" "948"
 			"plane" "(-7584 -7584 0) (-5056 -7584 0) (-5056 -10112 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 63.998] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -5359,7 +5359,7 @@ world
 		{
 			"id" "954"
 			"plane" "(-5056 -7584 0) (-2528 -7584 0) (-2528 -10112 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 63.998] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -5435,7 +5435,7 @@ world
 		{
 			"id" "960"
 			"plane" "(-2528 -7584 0) (0 -7584 0) (0 -10112 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 63.998] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -5511,7 +5511,7 @@ world
 		{
 			"id" "966"
 			"plane" "(0.000488281 -7584 0) (2528 -7584 0) (2528 -10112 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 63.998] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -5587,7 +5587,7 @@ world
 		{
 			"id" "972"
 			"plane" "(2528 -7584 0) (5056 -7584 0) (5056 -10112 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 63.998] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -5663,7 +5663,7 @@ world
 		{
 			"id" "978"
 			"plane" "(5056 -7584 0) (7584 -7584 0) (7584 -10112 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 63.998] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -5739,7 +5739,7 @@ world
 		{
 			"id" "984"
 			"plane" "(7584 -7584 0) (10112 -7584 0) (10112 -10112 0)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/BLENDDIRTGRASS008A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
