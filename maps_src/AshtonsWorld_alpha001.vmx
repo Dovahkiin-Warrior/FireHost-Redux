@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7910"
-	"mapversion" "15"
+	"mapversion" "16"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "15"
+	"mapversion" "16"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -6025,7 +6025,7 @@ entity
 			"id" "1001"
 			"plane" "(-636 10636 312) (628 10636 312) (628 11900 312)"
 			"material" "SKYBOX/SKY_FANTASYUP"
-			"uaxis" "[0 1 0 -424] 1.2345"
+			"uaxis" "[0 1 0 -416] 1.2355"
 			"vaxis" "[-1 0 0 509] 1.2358"
 			"rotation" "90"
 			"lightmapscale" "16"
