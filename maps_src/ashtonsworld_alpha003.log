@@ -130,3 +130,273 @@ Level flags = 0
 Total triangle count: 30633
 Writing z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha003.bsp
 4 minutes, 7 seconds elapsed
+
+
+
+materialPath: D:\Software\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha003.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 1078 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha003.prt...Building visibility clusters...
+done (0)
+WARNING: node without a volume
+WARNING: node without a volume
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (839113 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 7099 texinfos to 4200
+Reduced 308 texdatas to 269 (18377 bytes to 16452)
+Writing z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha003.bsp
+Wrote ZIP buffer, estimated size 6068212, actual size 6018284
+12 seconds elapsed
+
+
+
+6 threads
+reading z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha003.bsp
+reading z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha003.prt
+ 799 portalclusters
+1862 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 9322 visible clusters (1.64%)
+Total clusters visible: 567153
+Average clusters visible: 709
+Building PAS...
+Average clusters audible: 784
+visdatasize:164231  compressed from 166192
+writing z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha003.bsp
+2 seconds elapsed
+
+
+
+materialPath: D:\Software\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha003.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 1078 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha003.prt...Building visibility clusters...
+done (0)
+WARNING: node without a volume
+WARNING: node without a volume
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (839113 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 7099 texinfos to 4200
+Reduced 308 texdatas to 269 (18377 bytes to 16452)
+Writing z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha003.bsp
+Wrote ZIP buffer, estimated size 6068212, actual size 6018284
+11 seconds elapsed
+
+
+
+6 threads
+reading z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha003.bsp
+reading z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha003.prt
+ 799 portalclusters
+1862 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 9322 visible clusters (1.64%)
+Total clusters visible: 567153
+Average clusters visible: 709
+Building PAS...
+Average clusters audible: 784
+visdatasize:164231  compressed from 166192
+writing z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha003.bsp
+2 seconds elapsed
+
+
+
+materialPath: D:\Software\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha003.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (1)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 1078 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha003.prt...Building visibility clusters...
+done (1)
+WARNING: node without a volume
+WARNING: node without a volume
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (839113 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 7099 texinfos to 4200
+Reduced 308 texdatas to 269 (18377 bytes to 16452)
+Writing z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha003.bsp
+Wrote ZIP buffer, estimated size 6068212, actual size 6018284
+14 seconds elapsed
+
+
+
+6 threads
+reading z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha003.bsp
+reading z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha003.prt
+ 799 portalclusters
+1862 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 9322 visible clusters (1.64%)
+Total clusters visible: 567153
+Average clusters visible: 709
+Building PAS...
+Average clusters audible: 784
+visdatasize:164231  compressed from 166192
+writing z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha003.bsp
+2 seconds elapsed
+
+
+
+materialPath: D:\Software\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha003.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 1078 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha003.prt...Building visibility clusters...
+done (0)
+WARNING: node without a volume
+WARNING: node without a volume
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (839113 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 7099 texinfos to 4200
+Reduced 308 texdatas to 269 (18377 bytes to 16452)
+Writing z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha003.bsp
+Wrote ZIP buffer, estimated size 6068212, actual size 6018284
+13 seconds elapsed
+
+
+
+6 threads
+reading z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha003.bsp
+reading z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha003.prt
+ 799 portalclusters
+1862 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 9322 visible clusters (1.64%)
+Total clusters visible: 567153
+Average clusters visible: 709
+Building PAS...
+Average clusters audible: 784
+visdatasize:164231  compressed from 166192
+writing z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha003.bsp
+2 seconds elapsed
+
+
+
+materialPath: D:\Software\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha003.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 1078 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha003.prt...Building visibility clusters...
+done (0)
+WARNING: node without a volume
+WARNING: node without a volume
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (839113 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 7099 texinfos to 4200
+Reduced 308 texdatas to 269 (18377 bytes to 16452)
+Writing z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha003.bsp
+Wrote ZIP buffer, estimated size 6068212, actual size 6018284
+11 seconds elapsed
+
+
+
+6 threads
+reading z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha003.bsp
+reading z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha003.prt
+ 799 portalclusters
+1862 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 9322 visible clusters (1.64%)
+Total clusters visible: 567153
+Average clusters visible: 709
+Building PAS...
+Average clusters audible: 784
+visdatasize:164231  compressed from 166192
+writing z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha003.bsp
+2 seconds elapsed
