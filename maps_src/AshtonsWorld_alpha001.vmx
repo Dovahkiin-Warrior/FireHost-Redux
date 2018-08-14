@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7910"
-	"mapversion" "21"
+	"mapversion" "22"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "21"
+	"mapversion" "22"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -11635,11 +11635,11 @@ entity
 	"id" "398"
 	"classname" "sky_camera"
 	"angles" "0 0 0"
-	"fogblend" "0"
+	"fogblend" "1"
 	"fogcolor" "217 180 241"
 	"fogcolor2" "183 111 255"
 	"fogdir" "1 0 0"
-	"fogenable" "0"
+	"fogenable" "1"
 	"fogend" "2000.0"
 	"fogmaxdensity" "0.5"
 	"fogstart" "500.0"
