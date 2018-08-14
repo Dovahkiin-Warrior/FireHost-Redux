@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7910"
-	"mapversion" "23"
+	"mapversion" "24"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "23"
+	"mapversion" "24"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -11188,9 +11188,9 @@ world
 		{
 			"id" "1068"
 			"plane" "(512 10080 -4952) (-512 10080 -4952) (-512 10080 -3928)"
-			"material" "NATURE/GRASS/GRASS_01"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"material" "MAP/ENGINE"
+			"uaxis" "[1 0 0 512] 1"
+			"vaxis" "[0 0 -1 -856] 1"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -11855,6 +11855,36 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "1103"
+	"classname" "logic_auto"
+	"spawnflags" "1"
+	"origin" "-441.492 10072 -4085.8"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "1107"
+	"classname" "tf_gamerules"
+	"ctf_overtime" "1"
+	"effects" "0"
+	"hud_type" "0"
+	"origin" "-270.067 10072 -4082.73"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
 	}
 }
 cameras
