@@ -1,0 +1,792 @@
+
+
+
+materialPath: D:\Software\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha004.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 1078 detail faces...done (0)
+Merging details...done (1)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha004.prt...Building visibility clusters...
+done (0)
+WARNING: node without a volume
+WARNING: node without a volume
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (839113 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 7099 texinfos to 4200
+Reduced 308 texdatas to 269 (18377 bytes to 16452)
+Writing z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha004.bsp
+Wrote ZIP buffer, estimated size 6068212, actual size 6018284
+12 seconds elapsed
+
+
+
+6 threads
+reading z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha004.bsp
+reading z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha004.prt
+ 799 portalclusters
+1862 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 9322 visible clusters (1.64%)
+Total clusters visible: 567153
+Average clusters visible: 709
+Building PAS...
+Average clusters audible: 784
+visdatasize:164231  compressed from 166192
+writing z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha004.bsp
+2 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha004.bsp
+10450 faces
+6 degenerate faces
+12020253 square feet [1730916352.00 square inches]
+227 Displacements
+3512565 Square Feet [505809440.00 Square Inches]
+10444 patches before subdivision
+185362 patches after subdivision
+55 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 18538215, max 1475
+transfer lists: 141.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(127059, 46913, 9044)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(11328, 3244, 510)
+Build Patch/Sample Hash Table(s).....Done<0.1597 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  44/1024         2112/49152    ( 4.3%) 
+brushes               2170/8192        26040/98304    (26.5%) 
+brushsides           19407/65536      155256/524288   (29.6%) 
+planes               18828/65536      376560/1310720  (28.7%) 
+vertexes             16926/65536      203112/786432   (25.8%) 
+nodes                 3238/65536      103616/2097152  ( 4.9%) 
+texinfos              4200/12288      302400/884736   (34.2%) 
+texdata                269/2048         8608/65536    (13.1%) 
+dispinfos              227/0           39952/0        ( 0.0%) 
+disp_verts            9259/0          185180/0        ( 0.0%) 
+disp_tris            13408/0           26816/0        ( 0.0%) 
+disp_lmsamples     4268096/0         4268096/0        ( 0.0%) 
+faces                10450/65536      585200/3670016  (15.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             7987/65536      447272/3670016  (12.2%) 
+leaves                3283/65536      105056/2097152  ( 5.0%) 
+leaffaces            11214/65536       22428/131072   (17.1%) 
+leafbrushes           3667/65536        7334/131072   ( 5.6%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            83841/512000     335364/2048000  (16.4%) 
+edges                53036/256000     212144/1024000  (20.7%) 
+LDR worldlights         55/8192         4840/720896   ( 0.7%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips           1136/32768       11360/327680   ( 3.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         25077/65536       50154/131072   (38.3%) 
+cubemapsamples          55/1024          880/16384    ( 5.4%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]    10705100/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      164231/16777216 ( 1.0%) 
+entdata               [variable]      163722/393216   (41.6%) 
+LDR ambient table     3283/65536       13132/262144   ( 5.0%) 
+HDR ambient table     3283/65536       13132/262144   ( 5.0%) 
+LDR leaf ambient      8938/65536      250264/1835008  (13.6%) 
+HDR leaf ambient      3283/65536       91924/1835008  ( 5.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/5590     ( 0.0%) 
+pakfile               [variable]     6018284/0        ( 0.0%) 
+physics               [variable]      839113/4194304  (20.0%) 
+physics terrain       [variable]       52745/1048576  ( 5.0%) 
+
+Level flags = 0
+
+Total triangle count: 30818
+Writing z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha004.bsp
+3 minutes, 50 seconds elapsed
+
+
+
+materialPath: D:\Software\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha004.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 1078 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha004.prt...Building visibility clusters...
+done (0)
+WARNING: node without a volume
+WARNING: node without a volume
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (839113 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 7099 texinfos to 4200
+Reduced 308 texdatas to 269 (18377 bytes to 16452)
+Writing z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha004.bsp
+Wrote ZIP buffer, estimated size 6068212, actual size 6018284
+14 seconds elapsed
+
+
+
+6 threads
+reading z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha004.bsp
+reading z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha004.prt
+ 799 portalclusters
+1862 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 9322 visible clusters (1.64%)
+Total clusters visible: 567153
+Average clusters visible: 709
+Building PAS...
+Average clusters audible: 784
+visdatasize:164231  compressed from 166192
+writing z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha004.bsp
+4 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha004.bsp
+10450 faces
+6 degenerate faces
+12020253 square feet [1730916352.00 square inches]
+227 Displacements
+3512565 Square Feet [505809440.00 Square Inches]
+10444 patches before subdivision
+185362 patches after subdivision
+55 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 18538215, max 1475
+transfer lists: 141.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(153688, 74162, 18207)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(12803, 4716, 881)
+Build Patch/Sample Hash Table(s).....Done<0.2123 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  44/1024         2112/49152    ( 4.3%) 
+brushes               2170/8192        26040/98304    (26.5%) 
+brushsides           19407/65536      155256/524288   (29.6%) 
+planes               18828/65536      376560/1310720  (28.7%) 
+vertexes             16926/65536      203112/786432   (25.8%) 
+nodes                 3238/65536      103616/2097152  ( 4.9%) 
+texinfos              4200/12288      302400/884736   (34.2%) 
+texdata                269/2048         8608/65536    (13.1%) 
+dispinfos              227/0           39952/0        ( 0.0%) 
+disp_verts            9259/0          185180/0        ( 0.0%) 
+disp_tris            13408/0           26816/0        ( 0.0%) 
+disp_lmsamples     4268096/0         4268096/0        ( 0.0%) 
+faces                10450/65536      585200/3670016  (15.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             7987/65536      447272/3670016  (12.2%) 
+leaves                3283/65536      105056/2097152  ( 5.0%) 
+leaffaces            11214/65536       22428/131072   (17.1%) 
+leafbrushes           3667/65536        7334/131072   ( 5.6%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            83841/512000     335364/2048000  (16.4%) 
+edges                53036/256000     212144/1024000  (20.7%) 
+LDR worldlights         55/8192         4840/720896   ( 0.7%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips           1136/32768       11360/327680   ( 3.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         25077/65536       50154/131072   (38.3%) 
+cubemapsamples          55/1024          880/16384    ( 5.4%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]    10705100/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      164231/16777216 ( 1.0%) 
+entdata               [variable]      163725/393216   (41.6%) 
+LDR ambient table     3283/65536       13132/262144   ( 5.0%) 
+HDR ambient table     3283/65536       13132/262144   ( 5.0%) 
+LDR leaf ambient      9148/65536      256144/1835008  (14.0%) 
+HDR leaf ambient      3283/65536       91924/1835008  ( 5.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/5590     ( 0.0%) 
+pakfile               [variable]     6018284/0        ( 0.0%) 
+physics               [variable]      839113/4194304  (20.0%) 
+physics terrain       [variable]       52745/1048576  ( 5.0%) 
+
+Level flags = 0
+
+Total triangle count: 30818
+Writing z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha004.bsp
+3 minutes, 50 seconds elapsed
+
+
+
+materialPath: D:\Software\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha004.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 1078 detail faces...done (0)
+Merging details...done (1)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha004.prt...Building visibility clusters...
+done (1)
+WARNING: node without a volume
+WARNING: node without a volume
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (839113 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 7099 texinfos to 4200
+Reduced 308 texdatas to 269 (18377 bytes to 16452)
+Writing z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha004.bsp
+Wrote ZIP buffer, estimated size 6068212, actual size 6018284
+17 seconds elapsed
+
+
+
+6 threads
+reading z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha004.bsp
+reading z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha004.prt
+ 799 portalclusters
+1862 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 9322 visible clusters (1.64%)
+Total clusters visible: 567153
+Average clusters visible: 709
+Building PAS...
+Average clusters audible: 784
+visdatasize:164231  compressed from 166192
+writing z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha004.bsp
+2 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha004.bsp
+10450 faces
+6 degenerate faces
+12020253 square feet [1730916352.00 square inches]
+227 Displacements
+3512565 Square Feet [505809440.00 Square Inches]
+10444 patches before subdivision
+185362 patches after subdivision
+55 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 18538215, max 1475
+transfer lists: 141.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(124030, 44580, 7815)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(11084, 3042, 441)
+Build Patch/Sample Hash Table(s).....Done<0.1976 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  44/1024         2112/49152    ( 4.3%) 
+brushes               2170/8192        26040/98304    (26.5%) 
+brushsides           19407/65536      155256/524288   (29.6%) 
+planes               18828/65536      376560/1310720  (28.7%) 
+vertexes             16926/65536      203112/786432   (25.8%) 
+nodes                 3238/65536      103616/2097152  ( 4.9%) 
+texinfos              4200/12288      302400/884736   (34.2%) 
+texdata                269/2048         8608/65536    (13.1%) 
+dispinfos              227/0           39952/0        ( 0.0%) 
+disp_verts            9259/0          185180/0        ( 0.0%) 
+disp_tris            13408/0           26816/0        ( 0.0%) 
+disp_lmsamples     4268096/0         4268096/0        ( 0.0%) 
+faces                10450/65536      585200/3670016  (15.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             7987/65536      447272/3670016  (12.2%) 
+leaves                3283/65536      105056/2097152  ( 5.0%) 
+leaffaces            11214/65536       22428/131072   (17.1%) 
+leafbrushes           3667/65536        7334/131072   ( 5.6%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            83841/512000     335364/2048000  (16.4%) 
+edges                53036/256000     212144/1024000  (20.7%) 
+LDR worldlights         55/8192         4840/720896   ( 0.7%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips           1136/32768       11360/327680   ( 3.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         25077/65536       50154/131072   (38.3%) 
+cubemapsamples          55/1024          880/16384    ( 5.4%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]    10705100/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      164231/16777216 ( 1.0%) 
+entdata               [variable]      163726/393216   (41.6%) 
+LDR ambient table     3283/65536       13132/262144   ( 5.0%) 
+HDR ambient table     3283/65536       13132/262144   ( 5.0%) 
+LDR leaf ambient      8759/65536      245252/1835008  (13.4%) 
+HDR leaf ambient      3283/65536       91924/1835008  ( 5.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/5590     ( 0.0%) 
+pakfile               [variable]     6018284/0        ( 0.0%) 
+physics               [variable]      839113/4194304  (20.0%) 
+physics terrain       [variable]       52745/1048576  ( 5.0%) 
+
+Level flags = 0
+
+Total triangle count: 30818
+Writing z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha004.bsp
+3 minutes, 35 seconds elapsed
+
+
+
+materialPath: D:\Software\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha004.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 1078 detail faces...done (0)
+Merging details...done (1)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha004.prt...Building visibility clusters...
+done (0)
+WARNING: node without a volume
+WARNING: node without a volume
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (842201 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 7107 texinfos to 4204
+Reduced 316 texdatas to 273 (18876 bytes to 16648)
+Writing z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha004.bsp
+Wrote ZIP buffer, estimated size 6071476, actual size 6020744
+12 seconds elapsed
+
+
+
+6 threads
+reading z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha004.bsp
+reading z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha004.prt
+1093 portalclusters
+2882 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 14142 visible clusters (1.29%)
+Total clusters visible: 1100360
+Average clusters visible: 1006
+Building PAS...
+Average clusters audible: 1077
+visdatasize:304925  compressed from 314784
+writing z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha004.bsp
+2 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha004.bsp
+10680 faces
+6 degenerate faces
+12945319 square feet [1864125952.00 square inches]
+227 Displacements
+3512565 Square Feet [505809440.00 Square Inches]
+10674 patches before subdivision
+185592 patches after subdivision
+55 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 18757886, max 1489
+transfer lists: 143.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(124126, 44710, 7846)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(12079, 4391, 764)
+Build Patch/Sample Hash Table(s).....Done<0.1452 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  44/1024         2112/49152    ( 4.3%) 
+brushes               2174/8192        26088/98304    (26.5%) 
+brushsides           19451/65536      155608/524288   (29.7%) 
+planes               18894/65536      377880/1310720  (28.8%) 
+vertexes             17248/65536      206976/786432   (26.3%) 
+nodes                 3556/65536      113792/2097152  ( 5.4%) 
+texinfos              4204/12288      302688/884736   (34.2%) 
+texdata                273/2048         8736/65536    (13.3%) 
+dispinfos              227/0           39952/0        ( 0.0%) 
+disp_verts            9259/0          185180/0        ( 0.0%) 
+disp_tris            13408/0           26816/0        ( 0.0%) 
+disp_lmsamples     4268096/0         4268096/0        ( 0.0%) 
+faces                10680/65536      598080/3670016  (16.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             7995/65536      447720/3670016  (12.2%) 
+leaves                3601/65536      115232/2097152  ( 5.5%) 
+leaffaces            11471/65536       22942/131072   (17.5%) 
+leafbrushes           3815/65536        7630/131072   ( 5.8%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            84823/512000     339292/2048000  (16.6%) 
+edges                53633/256000     214532/1024000  (21.0%) 
+LDR worldlights         55/8192         4840/720896   ( 0.7%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            4/32768          48/393216   ( 0.0%) 
+waterstrips           1143/32768       11430/327680   ( 3.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         25161/65536       50322/131072   (38.4%) 
+cubemapsamples          55/1024          880/16384    ( 5.4%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]    10705100/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      304925/16777216 ( 1.8%) 
+entdata               [variable]      163726/393216   (41.6%) 
+LDR ambient table     3601/65536       14404/262144   ( 5.5%) 
+HDR ambient table     3601/65536       14404/262144   ( 5.5%) 
+LDR leaf ambient     10752/65536      301056/1835008  (16.4%) 
+HDR leaf ambient      3601/65536      100828/1835008  ( 5.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/5590     ( 0.0%) 
+pakfile               [variable]     6020744/0        ( 0.0%) 
+physics               [variable]      842201/4194304  (20.1%) 
+physics terrain       [variable]       52717/1048576  ( 5.0%) 
+
+Level flags = 0
+
+Total triangle count: 31308
+Writing z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha004.bsp
+3 minutes, 38 seconds elapsed
+
+
+
+materialPath: D:\Software\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha004.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (1)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 1078 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha004.prt...Building visibility clusters...
+done (0)
+WARNING: node without a volume
+WARNING: node without a volume
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (839749 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 7106 texinfos to 4202
+Reduced 312 texdatas to 271 (18568 bytes to 16532)
+Writing z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha004.bsp
+Wrote ZIP buffer, estimated size 6069300, actual size 6019104
+12 seconds elapsed
+
+
+
+6 threads
+reading z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha004.bsp
+reading z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha004.prt
+1683 portalclusters
+4537 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 26306 visible clusters (0.98%)
+Total clusters visible: 2684563
+Average clusters visible: 1595
+Building PAS...
+Average clusters audible: 1667
+visdatasize:717493  compressed from 727056
+writing z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha004.bsp
+3 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha004.bsp
+11316 faces
+6 degenerate faces
+17700908 square feet [2548930816.00 square inches]
+227 Displacements
+3512565 Square Feet [505809440.00 Square Inches]
+11310 patches before subdivision
+186266 patches after subdivision
+55 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 19369429, max 1523
+transfer lists: 147.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(124235, 44867, 7882)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(14646, 7874, 1603)
+Build Patch/Sample Hash Table(s).....Done<0.4852 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  44/1024         2112/49152    ( 4.3%) 
+brushes               2171/8192        26052/98304    (26.5%) 
+brushsides           19413/65536      155304/524288   (29.6%) 
+planes               18836/65536      376720/1310720  (28.7%) 
+vertexes             17864/65536      214368/786432   (27.3%) 
+nodes                 4184/65536      133888/2097152  ( 6.4%) 
+texinfos              4202/12288      302544/884736   (34.2%) 
+texdata                271/2048         8672/65536    (13.2%) 
+dispinfos              227/0           39952/0        ( 0.0%) 
+disp_verts            9259/0          185180/0        ( 0.0%) 
+disp_tris            13408/0           26816/0        ( 0.0%) 
+disp_lmsamples     4268096/0         4268096/0        ( 0.0%) 
+faces                11316/65536      633696/3670016  (17.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             7987/65536      447272/3670016  (12.2%) 
+leaves                4229/65536      135328/2097152  ( 6.5%) 
+leaffaces            12281/65536       24562/131072   (18.7%) 
+leafbrushes           4158/65536        8316/131072   ( 6.3%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            87291/512000     349164/2048000  (17.0%) 
+edges                54848/256000     219392/1024000  (21.4%) 
+LDR worldlights         55/8192         4840/720896   ( 0.7%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips           1130/32768       11300/327680   ( 3.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         24987/65536       49974/131072   (38.1%) 
+cubemapsamples          55/1024          880/16384    ( 5.4%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]    10705728/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      717493/16777216 ( 4.3%) 
+entdata               [variable]      163726/393216   (41.6%) 
+LDR ambient table     4229/65536       16916/262144   ( 6.5%) 
+HDR ambient table     4229/65536       16916/262144   ( 6.5%) 
+LDR leaf ambient     14314/65536      400792/1835008  (21.8%) 
+HDR leaf ambient      4229/65536      118412/1835008  ( 6.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/5568     ( 0.0%) 
+pakfile               [variable]     6019104/0        ( 0.0%) 
+physics               [variable]      839749/4194304  (20.0%) 
+physics terrain       [variable]       52451/1048576  ( 5.0%) 
+
+Level flags = 0
+
+Total triangle count: 32536
+Writing z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha004.bsp
+5 minutes, 51 seconds elapsed
+
+
+
+materialPath: D:\Software\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha004.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (1)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 1078 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha004.prt...Building visibility clusters...
+done (0)
+WARNING: node without a volume
+WARNING: node without a volume
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (839749 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 7106 texinfos to 4202
+Reduced 312 texdatas to 271 (18568 bytes to 16532)
+Writing z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha004.bsp
+Wrote ZIP buffer, estimated size 6069300, actual size 6019104
+13 seconds elapsed
+
+
+
+6 threads
+reading z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha004.bsp
+reading z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha004.prt
+1683 portalclusters
+4537 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 26306 visible clusters (0.98%)
+Total clusters visible: 2684563
+Average clusters visible: 1595
+Building PAS...
+Average clusters audible: 1667
+visdatasize:717493  compressed from 727056
+writing z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha004.bsp
+3 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha004.bsp
+11316 faces
+6 degenerate faces
+17700908 square feet [2548930816.00 square inches]
+227 Displacements
+3512565 Square Feet [505809440.00 Square Inches]
+11310 patches before subdivision
+186266 patches after subdivision
+55 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 19369429, max 1523
+transfer lists: 147.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(124235, 44867, 7882)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(14646, 7874, 1603)
+Build Patch/Sample Hash Table(s).....Done<0.2390 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  44/1024         2112/49152    ( 4.3%) 
+brushes               2171/8192        26052/98304    (26.5%) 
+brushsides           19413/65536      155304/524288   (29.6%) 
+planes               18836/65536      376720/1310720  (28.7%) 
+vertexes             17864/65536      214368/786432   (27.3%) 
+nodes                 4184/65536      133888/2097152  ( 6.4%) 
+texinfos              4202/12288      302544/884736   (34.2%) 
+texdata                271/2048         8672/65536    (13.2%) 
+dispinfos              227/0           39952/0        ( 0.0%) 
+disp_verts            9259/0          185180/0        ( 0.0%) 
+disp_tris            13408/0           26816/0        ( 0.0%) 
+disp_lmsamples     4268096/0         4268096/0        ( 0.0%) 
+faces                11316/65536      633696/3670016  (17.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             7987/65536      447272/3670016  (12.2%) 
+leaves                4229/65536      135328/2097152  ( 6.5%) 
+leaffaces            12281/65536       24562/131072   (18.7%) 
+leafbrushes           4158/65536        8316/131072   ( 6.3%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            87291/512000     349164/2048000  (17.0%) 
+edges                54848/256000     219392/1024000  (21.4%) 
+LDR worldlights         55/8192         4840/720896   ( 0.7%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips           1130/32768       11300/327680   ( 3.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         24987/65536       49974/131072   (38.1%) 
+cubemapsamples          55/1024          880/16384    ( 5.4%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]    10705728/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      717493/16777216 ( 4.3%) 
+entdata               [variable]      174748/393216   (44.4%) 
+LDR ambient table     4229/65536       16916/262144   ( 6.5%) 
+HDR ambient table     4229/65536       16916/262144   ( 6.5%) 
+LDR leaf ambient     14314/65536      400792/1835008  (21.8%) 
+HDR leaf ambient      4229/65536      118412/1835008  ( 6.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/5568     ( 0.0%) 
+pakfile               [variable]     6019104/0        ( 0.0%) 
+physics               [variable]      839749/4194304  (20.0%) 
+physics terrain       [variable]       52451/1048576  ( 5.0%) 
+
+Level flags = 0
+
+Total triangle count: 32536
+Writing z:\dovahkiin-warrior\firehost-redux-custom\maps_src\ashtonsworld_alpha004.bsp
+5 minutes, 13 seconds elapsed
